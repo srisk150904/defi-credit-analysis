@@ -23,7 +23,6 @@ AAVE-Credit-Scoring/
 ├── model.py                # ML model definition and scoring
 ├── evaluate.py             # Visuals, summaries, and wallet inspection
 ├── utils.py                # Utility functions like scaling
-├── data/                   # Input JSON and processed CSVs
 ├── outputs/                # Model files, plots, etc.
 ├── README.md               # Project overview
 └── analysis.md             # Wallet score analysis and insights
@@ -127,9 +126,3 @@ python -m evaluate
 * Lower scores were assigned to erratic, low-activity, or liquidated wallets
 
 For more detailed behavior analysis, see [analysis.md](analysis.md).
-
----
-
-## 📃 License
-
-MIT License
