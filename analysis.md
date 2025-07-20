@@ -8,13 +8,14 @@ This report summarizes the scoring behavior observed in the AAVE wallet credit s
 
 ```python
 y = (
-    df['num_deposits'] * 1.2
-    + df['repay_borrow_ratio'] * 7
-    - df['num_liquidations'] * 30
-    + df['activity_duration_days'] * 0.3
-    + np.log1p(df['total_usd']) / 1000
-    + np.log1p(df['avg_tx_usd']) / 100
-)
+        df['num_deposits'] * 1.1
+        + df['repay_borrow_ratio'].clip(0, 5) * 5  # reduce outlier impact
+        - df['num_liquidations'] * 37
+        + df['activity_duration_days'] * 0.2
+        + df['total_usd'].apply(np.log1p) / 1000
+        + np.log1p(df['avg_tx_usd']) / 100
+    )
+
 ```
 
 - The output is then scaled to a **0–1000** range.
