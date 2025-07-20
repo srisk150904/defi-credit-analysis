@@ -4,7 +4,7 @@ This repository implements an end-to-end pipeline to estimate **credit scores** 
 
 ---
 * **Why Credit Scoring in DeFi?**
-* Traditional credit scoring doesn't apply to DeFi users. By analyzing wallet-level behavior on protocols like AAVE, we can build new trust mechanisms for lending, insurance, and risk-based segmentation—without centralized authorities.
+  Traditional credit scoring doesn't apply to DeFi users. By analyzing wallet-level behavior on protocols like AAVE, we can build new trust mechanisms for lending, insurance, and risk-based segmentation—without centralized authorities.
 ---
 ## 🔧 Tech Stack
 
