@@ -42,7 +42,7 @@ A histogram showing how many wallets fall into each score range:
 | 800–900     | 8        | \~0.2%                     |
 | 900–1000    | 2        | \~0.06%                    |
 
-<img width="657" height="470" alt="image" src="https://github.com/user-attachments/assets/c6df04c6-ae78-4858-8c83-ad45eebbf571" />
+<img width="687" height="570" alt="image" src="https://github.com/user-attachments/assets/c6df04c6-ae78-4858-8c83-ad45eebbf571" />
 
 ---
 
