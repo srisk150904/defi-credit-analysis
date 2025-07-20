@@ -3,8 +3,8 @@
 This repository implements an end-to-end pipeline to estimate **credit scores** for DeFi wallets interacting with the **AAVE v2 protocol**. The model uses on-chain transaction behavior to assign scores from **0 to 1000**, reflecting each wallet's relative financial reliability.
 
 ---
-**Why Credit Scoring in DeFi?**
-Traditional credit scoring doesn't apply to DeFi users. By analyzing wallet-level behavior on protocols like AAVE, we can build new trust mechanisms for lending, insurance, and risk-based segmentation—without centralized authorities.
+* **Why Credit Scoring in DeFi?**
+* Traditional credit scoring doesn't apply to DeFi users. By analyzing wallet-level behavior on protocols like AAVE, we can build new trust mechanisms for lending, insurance, and risk-based segmentation—without centralized authorities.
 ---
 ## 🔧 Tech Stack
 
