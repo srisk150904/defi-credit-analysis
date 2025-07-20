@@ -75,6 +75,7 @@ A histogram showing how many wallets fall into each score range:
 - Few or no liquidations
 - Reasonable activity span (30+ days)
 - Consistent average transaction size
+<img width="753" height="506" alt="image" src="https://github.com/user-attachments/assets/93f30309-86d7-4ce7-99a2-599a7c3ab09e" />
 
 ### 🟢 High Scoring Wallets (700+)
 
@@ -82,7 +83,7 @@ A histogram showing how many wallets fall into each score range:
 - Sustained activity across many days
 - Higher avg\_tx\_usd, low std deviation
 - Clean track record with **no liquidations**
-
+<img width="726" height="235" alt="image" src="https://github.com/user-attachments/assets/c944849e-da49-4dee-a69b-95ddb1b1d3ae" />
 ---
 
 ## 🔍 Top 3 Highest Scoring Wallets
