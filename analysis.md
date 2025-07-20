@@ -42,6 +42,8 @@ A histogram showing how many wallets fall into each score range:
 | 800–900     | 8        | \~0.2%                     |
 | 900–1000    | 2        | \~0.06%                    |
 
+<img width="657" height="470" alt="image" src="https://github.com/user-attachments/assets/c6df04c6-ae78-4858-8c83-ad45eebbf571" />
+
 ---
 
 ### 🔍 **Why This Is a Solid Distribution**
@@ -107,5 +109,4 @@ This version feels:
 
 This scoring framework provides a transparent and interpretable mechanism to distinguish reliable DeFi wallets from erratic or high-risk ones using a behavior-based model. It is **extensible**, explainable, and works without oracle dependency.
 
-Feel free to customize the heuristic or upgrade the ML model for improved accuracy.
 
