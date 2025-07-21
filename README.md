@@ -27,6 +27,7 @@ AAVE-Credit-Scoring/
 ├── README.md               # Project overview
 └── analysis.md             # Wallet score analysis and insights
 ```
+<img width="625" height="412" alt="image" src="https://github.com/user-attachments/assets/84ea7d51-6f17-4e3c-81f7-2f06c1d35c08" />
 
 ---
 
