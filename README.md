@@ -116,8 +116,11 @@ python -m evaluate
 | ...             | ...           |
 
 ---
-
+## 📈 Future Plans
+* Optimize the Randomforestregresser
+* Hyperparameter tuning
 ## 📊 Result Summary
+---
 
 * Wallets with higher scores showed:
 
