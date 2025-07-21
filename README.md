@@ -115,9 +115,11 @@ python -m evaluate
 | ...             | ...           |
 
 ---
-## 📈 Future Plans
+# 📈 Future Plans
 * Optimize the Randomforestregresser
 * Hyperparameter tuning
+* Optuna optimization approach.
+---
 ## 📊 Result Summary
 ---
 
