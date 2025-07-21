@@ -23,9 +23,8 @@ AAVE-Credit-Scoring/
 ├── model.py                # ML model definition and scoring
 ├── evaluate.py             # Visuals, summaries, and wallet inspection
 ├── utils.py                # Utility functions like scaling
-├── outputs/                # Model files, plots, etc.
 ├── README.md               # Project overview
-└── analysis.md             # Wallet score analysis and insights
+└── analysis.md             # Wallet score analysis, plots, insights etc.
 ```
 <img width="475" height="312" alt="image" src="https://github.com/user-attachments/assets/84ea7d51-6f17-4e3c-81f7-2f06c1d35c08" />
 
