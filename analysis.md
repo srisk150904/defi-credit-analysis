@@ -8,14 +8,15 @@ This report summarizes the scoring behavior observed in the AAVE wallet credit s
 
 ```python
    y = (
-        df['num_deposits'] * 1.1
-        + df['repay_borrow_ratio'].clip(0, 5) * 5
-        - df['num_liquidations'] * 37
-        + df['activity_duration_days'] * 0.2
-        + df['total_usd'].apply(np.log1p) / 1000
-        + np.log1p(df['avg_tx_usd']) / 100
-    )
-    y = scale_score_to_range(y, 0, 1000)
+   + num_deposits * 1.1                  # commitment of capital
+   + repay_borrow_ratio * 5              # discipline
+   - num_liquidations * 37               # explicit risk penalty
+   + activity_duration_days * 0.2        # stability
+   + log(total_usd) / 1000               # scale wealth safely
+   + log(avg_tx_usd) / 100               # consistency
+)
+
+y = scale_score_to_range(y, 0, 1000)
 
 ```
 
