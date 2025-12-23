@@ -10,7 +10,7 @@ This report summarizes the scoring behavior observed in the AAVE wallet credit s
    y = (
    + num_deposits * 1.1                  # commitment of capital
    + repay_borrow_ratio * 5              # discipline
-   - num_liquidations * 37               # explicit risk penalty
+   - num_liquidations * 30               # explicit risk penalty
    + activity_duration_days * 0.2        # stability
    + log(total_usd) / 1000               # scale wealth safely
    + log(avg_tx_usd) / 100               # consistency
